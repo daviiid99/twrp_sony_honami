@@ -5,9 +5,6 @@
 /system_image       emmc      /dev/block/platform/msm_sdcc.1/by-name/system                         flags=display="System image";backup=1;flashimg=1;
 /cache              ext4      /dev/block/platform/msm_sdcc.1/by-name/cache                          flags=display="Cache";
 /data               ext4      /dev/block/platform/msm_sdcc.1/by-name/userdata                       flags=display="Data";
-/idd                tmpfs     tmpfs                                                                 flags=display="Idd";logical;
 /misc               emmc      /dev/block/platform/msm_sdcc.1/by-name/apps_log                       flags=display="Misc";backup=1;flashimg=1;
-/mmc_host*          auto      auto                                                                  flags=display="Mmc_host*";logical;
-none                swap      /dev/block/zram0                                                      flags=display="None";
 /external_sd	      auto      /dev/block/mmcblk1p1 /dev/block/mmcblk1			            flags=display="MicroSD";storage;wipeingui;removable;backup=0;adopted_mount_delay=5
 /usb-otg            vfat      /dev/block/sda1 /dev/block/sda                                        flags=display="USB OTG";storage;wipeingui;removable
