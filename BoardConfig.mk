@@ -1,9 +1,9 @@
 
-
 DEVICE_PATH := device/sony/honami
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
+TEMPORARY_DISABLE_PATH_RESTRICTIONS=true
 
 # Architecture
 TARGET_ARCH := arm
