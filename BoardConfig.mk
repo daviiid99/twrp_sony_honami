@@ -40,7 +40,6 @@ TARGET_KERNEL_ARCH := arm
 TARGET_KERNEL_HEADER_ARCH := arm
 TARGET_KERNEL_SOURCE := kernel/sony/honami
 BOARD_KERNEL_CMDLINE  += androidboot.selinux=permissive
-BOARD_KERNEL_SEPARATED_DT := true
 
 # Platform
 TARGET_BOARD_PLATFORM := msm8974
